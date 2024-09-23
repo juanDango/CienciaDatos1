@@ -1,0 +1,100 @@
+# Ignorar el entorno virtual
+taller1-venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C Extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Ignorar los archivos DS_Store generados en MacOS
+.DS_Store
+
+# Ignorar archivos de configuración de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Ignorar los archivos exportados o las salidas temporales de Jupyter
+*.nbconvert.ipynb
+
+# Ignorar archivos temporales creados por editores
+*.swp
+*~
+
+# Ignorar los archivos log y de seguimiento
+*.log
+*.out
+
+# Ignorar otros archivos temporales o no deseados
+*.bak
+*.tmp
+*.old
